@@ -10,6 +10,14 @@ const repeatString = function (str, num) {
   }
   return output;
 
+  // OR -- 
+  /* let err = 'ERROR';
+  if (num < 0) {
+    return err;
+  }
+  let output = str.repeat(num);
+  return output;
+ */
 };
 
 // Do not edit below this line
